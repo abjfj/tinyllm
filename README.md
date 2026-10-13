@@ -12,7 +12,7 @@ Tokenizer → GPT 模型 → 训练循环 → 推理生成，最终能在小语�
 
 ```
 ├── PROGRESS.md     # 进度总文档：做到哪了、下一步是什么（新设备接手先看这里）
-├── CLAUDE.md       # 给 AI agent 的接手指引
+├── AGENTS.md       # 给 AI agent 的接手指引（CLAUDE.md 指向这里）
 ├── notes/          # 每个阶段的知识点讲解（按编号顺序）
 └── tinyllm/        # 框架代码本体
 ```
