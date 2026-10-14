@@ -20,7 +20,7 @@ assert x.grad == 4.0 and y.grad == 3.0
 
 | 阶段 | 内容 | 状态 | 笔记 | 代码 |
 |------|------|------|------|------|
-| 0 | mini 自动微分引擎 | 🔵 进行中（讲解完成，未写码） | [01-backpropagation](notes/01-backpropagation.md) | `tinyllm/tensor.py`（待创建） |
+| 0 | mini 自动微分引擎 | 🔵 进行中（讲解完成，未写码） | [00-calculus](notes/00-calculus.md)、[01-backpropagation](notes/01-backpropagation.md) | `tinyllm/tensor.py`（待创建） |
 | 1 | BPE Tokenizer | ⚪ 未开始 | — | `tinyllm/tokenizer.py`（待创建） |
 | 2 | GPT 模型 | ⚪ 未开始 | — | `tinyllm/model.py`（待创建） |
 | 3 | 训练循环 | ⚪ 未开始 | — | `tinyllm/train.py`（待创建） |
@@ -42,3 +42,4 @@ assert x.grad == 4.0 and y.grad == 3.0
 ## 更新日志
 
 - **2026-10-12**：仓库初始化；完成反向传播核心原理讲解（notes/01）。
+- **2026-10-14**：补充微积分前置知识讲解（notes/00：导数、偏导数、链式法则）。
